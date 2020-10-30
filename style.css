@@ -6,11 +6,15 @@ header{
     color: whitesmoke;
     font-size: 3em;
     margin: 0;
+    position: sticky;
+    background-color: #888888;
+}
+h1{
+    background-color: black;
 }
 h2{
     color: red;
     font-size: 2em;
-    margin: 2;
 }
 body{
     background-color:  black;
@@ -19,6 +23,7 @@ body{
     margin: 40px;
     padding: 40px;
     border-top: 10px solid yellowgreen;
+    min-height: 50em;
 }
 
 p{
@@ -43,4 +48,26 @@ a[href$=".html"]
 
 div{
     padding: 5px;
+}
+section{
+    background: #ccc;
+    display: flex;
+}
+
+article{
+    background :#999;
+    padding: 20px;
+    margin: 22px;
+}
+.image1{
+    height: 300px;
+    width: 450px;
+    float: left;
+    margin-left: 10px;
+}
+.image2{
+    height: 300px;
+    width: 450px;
+    float: right;
+    margin-left: 10px;
 }
