@@ -30,9 +30,7 @@ p{
     line-height: 1.4em;
 }
 
-#blog{
-    border-top: 1px dotted #ccc;
-}
+
 .Hollowknight{
     border-bottom: 1px dotted #ccc;
 }
@@ -70,4 +68,14 @@ article{
     width: 450px;
     float: right;
     margin-left: 10px;
+}
+
+/* Media Queries */
+@media (max-width: 400px) {
+    #blog{
+        border-top: 1px dotted #ccc;
+    }
+    body{
+        background-color: burlywood;
+    }
 }
